@@ -1,0 +1,19 @@
+{
+  "name": "abm-app",
+  "version": "1.0.0",
+  "description": "ABM-app para empresa de seguros",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ricardomatiasm/ABM-App.git"
+  },
+  "author": "Mascareño, Ricardo || Villan, Ivan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ricardomatiasm/ABM-App/issues"
+  },
+  "homepage": "https://github.com/Ricardomatiasm/ABM-App#readme"
+}
