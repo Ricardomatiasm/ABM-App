@@ -10,10 +10,14 @@
     "type": "git",
     "url": "git+https://github.com/Ricardomatiasm/ABM-App.git"
   },
-  "author": "Mascareño, Ricardo || Villan, Ivan",
+  "author": "Ramb Jeremias || Villan, Ivan || Mascareño, Ricardo",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Ricardomatiasm/ABM-App/issues"
   },
-  "homepage": "https://github.com/Ricardomatiasm/ABM-App#readme"
+  "homepage": "https://github.com/Ricardomatiasm/ABM-App#readme",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  }
 }
