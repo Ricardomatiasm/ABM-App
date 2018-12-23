@@ -35,7 +35,8 @@
     "express": "4.16.2",
     "prop-types": "15.6.0",
     "react": "16.1.1",
-    "react-dom": "16.1.1"
+    "react-dom": "16.1.1",
+    "react-materialize": "^2.6.0"
   },
   "author": "Ramb Jeremias || Villan, Ivan || Mascareño, Ricardo",
   "license": "ISC",
