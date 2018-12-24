@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Toolbar from './components/navigation/nav/toolbar/toolbar';
 import SideDrawer from './components/navigation/nav/sideDrawer/sideDrawer';
 import BackDrop from './components/navigation/nav/backDrop/backDrop';
+import Navegation from './components/navigation/nav/navegation';
 
 class App extends Component{
     state = {
@@ -28,7 +29,9 @@ class App extends Component{
                     <div style={{height: '100%'}}>
                     <Toolbar drawerClickHandler={this.drawerToggleClickHandler} />
                     <SideDrawer show={this.state.sideDrawerOpen} />
+                    <Navegation />
                     {backdrop}
+                    
                     <main style={{marginTop: "64px"}}>
                         
                     </main>
