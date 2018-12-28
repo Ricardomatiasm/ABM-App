@@ -1,0 +1,21 @@
+select{
+    width: 200px;
+    height: 35px;
+    color: #333;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    display: inline-block;
+    width: 350px;
+    background-color: transparent;
+    cursor: pointer;
+}
+select::before{
+    transform: rotateX(-180deg);
+}
+
+option{
+  list-style-type: none;
+  background-color: #FFF;
+  box-sizing: border-box
+}

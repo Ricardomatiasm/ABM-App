@@ -14,19 +14,15 @@ const Toolbar = props => (
                     <div className="Toolbar-item">
                         <ul>
                             <li>
-                                <Link to="/"> Cliente </Link>
+                                <Link to="/"> Inicio </Link>
                             </li>
+                            
                             <li>
-                                <Link to="/vendor"> Vendedor </Link>
+                                <Link to="/document"> Documentos </Link>
                             </li>
+
                             <li>
-                                <Link to="/import"> Importar </Link>
-                            </li>
-                            <li>
-                                <Link to="/export"> Exportar </Link>
-                            </li>
-                            <li>
-                                <Link to="/newDocument"> Nuevo Documento </Link>
+                                <Link to="/newDocument"> Crear nuevo </Link>
                             </li>
                         </ul>
                     </div>

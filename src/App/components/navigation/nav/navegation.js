@@ -1,20 +1,16 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import Client from '../button/client';
-import Export from '../button/export';
-import Import from '../button/import';
+import Inicio from '../button/inicio';
+import Document from '../button/document';
 import NewDoc from '../button/newDocument';
-import Vendor from '../button/vendor';
 
 class Navegation extends Component{
     render(){
         return(
             <Switch>
-                <Route exact path="/" component={Client} />
-                <Route path="/vendor" component={Vendor} />
-                <Route path="/import" component={Import} />
-                <Route path="/export" component={Export} />
+                <Route exact path="/" component={Inicio} />
+                <Route path="/document" component={Document} />
                 <Route path="/newDocument" component={NewDoc} />
             </Switch>
         );
