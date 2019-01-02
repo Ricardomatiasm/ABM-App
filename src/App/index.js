@@ -8,5 +8,5 @@ const app =  document.getElementById('app')
 
 render(<Router>
             <App />
-        </Router>, 
+        </Router>,
         app);
